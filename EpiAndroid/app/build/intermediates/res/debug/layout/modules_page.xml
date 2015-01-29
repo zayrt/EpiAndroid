@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ListView android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/modules"
+    	android:layout_gravity="center_horizontal"/>
+</LinearLayout><!-- From: file:/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/layout/modules_page.xml -->

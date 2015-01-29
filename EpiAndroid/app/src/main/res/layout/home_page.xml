@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageView android:id="@+id/photo"
+        	android:layout_width="160dp"
+    		android:layout_height="190dp"
+        	android:scaleType="centerCrop"
+    		android:adjustViewBounds="true" />
+    	<TextView
+        	android:id="@+id/logTime"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_toRightOf="@id/photo"
+        	android:background="@color/blue"
+        	android:gravity="center"
+        	android:textColor="@color/white"
+        	android:text="@string/LogTime"
+        	android:textSize="20sp" />
+    	<TextView android:id="@+id/activeTime"
+
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_toRightOf="@id/photo"
+        	android:layout_below="@id/logTime"
+        	android:layout_marginTop="5dp"
+        	android:gravity="center"
+        	android:textSize="20sp" />
+	</RelativeLayout>
+	<TextView
+        android:id="@+id/latest"
+        android:background="@color/blue"
+    	android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Last"
+        android:textSize="20sp" />
+	<ListView android:id="@+id/lastmessage"
+	        android:layout_marginTop="3dp"
+	   	    android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:listSelector="@android:color/transparent" >
+	</ListView>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/build/intermediates/pre-dexed/debug/jackson-all-1.9.5-dafded75301ace93e7a9b3b574bec5ec62853a68.jar"
+        jar="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/libs/jackson-all-1.9.5.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f84f05df99ae5cba7919a9415425a6e9226ee6c3"/>
+    <item
+        dex="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-39866684b461841e6f97512d905a88089b21fdf9.jar"
+        jar="/home/zellou_i/Downloads/android-studio/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+    <item
+        dex="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-e6b920118c896df2e784e3829773b3d1326b35ae.jar"
+        jar="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/build/intermediates/pre-dexed/debug/classes-f3c950feff5dfe36844e6095149806940ce1915a.jar"
+        jar="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+
+</pre-dex-items>
