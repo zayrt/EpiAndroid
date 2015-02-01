@@ -29,8 +29,7 @@ Eclipse projects. Here's how the projects were restructured:
 
 * AndroidManifest.xml => app/src/main/AndroidManifest.xml
 * assets/ => app/src/main/assets/
-* libs/jackson-core-asl-1.8.5.jar => app/libs/jackson-core-asl-1.8.5.jar
-* libs/jackson-mapper-asl-1.8.5.jar => app/libs/jackson-mapper-asl-1.8.5.jar
+* libs/jackson-all-1.9.5.jar => app/libs/jackson-all-1.9.5.jar
 * res/ => app/src/main/res/
 * src/ => app/src/main/java/
 

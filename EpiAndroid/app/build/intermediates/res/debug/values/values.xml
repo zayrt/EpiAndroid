@@ -6,6 +6,7 @@
 
     <string-array name="items">
         <item>Home</item>
+        <item>Planning</item>
         <item>Mark</item>
         <item>Modules</item>
     </string-array>
@@ -31,9 +32,15 @@
     <string name="app_name">EpiAndroid</string>
     <string name="drawer_close">Close</string>
     <string name="drawer_open">Open</string>
+    <string name="enter">Enter</string>
     <string name="home">Home</string>
     <string name="menu">Menu</string>
+    <string name="next">Next</string>
+    <string name="previous">Prev</string>
+    <string name="refresh">Refresh</string>
     <string name="signin">Sign in</string>
+    <string name="tap">Tap to enter Token</string>
+    <string name="token">Token</string>
     <!-- From: file:/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/values/styles.xml -->
     <eat-comment />
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:id="@+id/detail"
+   	android:layout_width="match_parent"
+   	android:layout_height="match_parent"
+   	android:visibility="visible"
+   	android:gravity="center">
+	<RelativeLayout
+   		android:id="@+id/allowToken"
+   		android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:visibility="visible">
+   		<EditText android:id="@+id/token"
+       		android:layout_width="match_parent"
+       		android:layout_height="wrap_content"
+       		android:maxLength="8"
+       		android:hint="@string/token"       	
+       		android:inputType="number"/> 
+    	<Button android:id="@+id/validate"
+       		android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:layout_below="@id/token"
+       		android:layout_centerHorizontal="true"
+       		android:text="@string/enter" />
+	</RelativeLayout>
+	<TextView android:id="@+id/ok"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:layout_below="@id/allowToken"
+    	android:textSize="20sp"/>
+</RelativeLayout><!-- From: file:/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/layout/enter_token.xml -->

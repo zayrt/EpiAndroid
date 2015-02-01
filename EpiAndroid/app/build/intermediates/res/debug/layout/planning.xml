@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+  	<Space android:id="@+id/center" 
+        android:layout_width="5dp" 
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true" />
+    <Button android:id="@+id/previous"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/previous"
+    	android:layout_toLeftOf="@id/center"/>
+    <Button	android:id="@+id/next"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/next"
+    	android:layout_toRightOf="@id/center"/>
+    <LinearLayout android:id="@+id/progressBar"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:visibility="gone" >
+    <ProgressBar 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+   <TextView android:id="@+id/date"
+        android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+        android:background="@color/blue"
+       	android:gravity="center"
+        android:textColor="@color/white"
+       	android:layout_below="@id/next"
+       	android:textSize="18sp"/>
+   <ListView android:id="@+id/event"
+       	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/date"
+    	android:layout_gravity="center_horizontal"/>
+</RelativeLayout><!-- From: file:/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/layout/planning.xml -->

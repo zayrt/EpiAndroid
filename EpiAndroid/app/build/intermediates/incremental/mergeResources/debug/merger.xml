@@ -12,6 +12,11 @@
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
+                name="reload"
+                path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/drawable-mdpi/reload.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
                 path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
@@ -71,6 +76,9 @@
             <file
                 path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/values/strings.xml"
                 qualifiers="" >
+                <string name="previous" >Prev
+                </string>
+
                 <item
                     name="blue"
                     type="color">
@@ -93,9 +101,15 @@
 #FFFF4444
                 </item>
 
+                <string name="tap" >Tap to enter Token
+                </string>
+
                 <string-array name="items" >
                     <item>
 Home
+                    </item>
+                    <item>
+Planning
                     </item>
                     <item>
 Mark
@@ -108,6 +122,8 @@ Modules
                 <string name="drawer_close" >Close
                 </string>
                 <string name="home" >Home
+                </string>
+                <string name="enter" >Enter
                 </string>
                 <string name="signin" >Sign in
                 </string>
@@ -126,13 +142,24 @@ Modules
                 </string>
                 <string name="app_name" >EpiAndroid
                 </string>
+                <string name="token" >Token
+                </string>
+                <string name="next" >Next
+                </string>
                 <string name="menu" >Menu
+                </string>
+                <string name="refresh" >Refresh
                 </string>
                 <string name="LogTime" >Log Time
                 </string>
                 <string name="drawer_open" >Open
                 </string>
             </file>
+            <file
+                name="reload"
+                path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/drawable-ldpi/reload.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
             <file
                 path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/values-w820dp/dimens.xml"
                 qualifiers="w820dp-v13" >
@@ -142,6 +169,11 @@ Modules
             <file
                 name="ic_launcher"
                 path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="reload"
+                path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/drawable-xhdpi/reload.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
@@ -155,13 +187,28 @@ Modules
                 qualifiers=""
                 type="layout" />
             <file
+                name="event"
+                path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/layout/event.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="last_message"
                 path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/layout/last_message.xml"
                 qualifiers=""
                 type="layout" />
             <file
+                name="enter_token"
+                path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/layout/enter_token.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="activity_main"
                 path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="row_bmodule"
+                path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/layout/row_bmodule.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -175,6 +222,11 @@ Modules
                 qualifiers=""
                 type="layout" />
             <file
+                name="planning"
+                path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/layout/planning.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="modules_page"
                 path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/layout/modules_page.xml"
                 qualifiers=""
@@ -185,8 +237,18 @@ Modules
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
+                name="reload"
+                path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/drawable-hdpi/reload.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="reload"
+                path="/home/zellou_i/AndroidStudioProjects/EpiAndroid/app/src/main/res/drawable-xxhdpi/reload.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
         </source>

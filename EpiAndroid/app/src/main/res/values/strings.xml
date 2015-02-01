@@ -13,9 +13,16 @@
     <string name="home">Home</string>
     <string name="drawer_open">Open</string>
 	<string name="drawer_close">Close</string>
+	<string name="previous">Prev</string>
+	<string name="next">Next</string>
+    <string name="token">Token</string>
+    <string name="refresh">Refresh</string>
+    <string name="enter">Enter</string>
+    <string name="tap">Tap to enter Token</string>
     
     <string-array name="items">
         <item>Home</item>
+        <item>Planning</item>
         <item>Mark</item>
         <item>Modules</item>
     </string-array>
