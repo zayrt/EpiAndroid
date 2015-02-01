@@ -19,6 +19,7 @@ import android.widget.ListView;
 public class ModulesFragment extends Fragment  implements View.OnClickListener {
     private String token;
     private LoadModule loadModule;
+    private LoadMyModule loadMyModule;
     private List<Module> my_module;
     private View myview;
 
@@ -64,10 +65,14 @@ public class ModulesFragment extends Fragment  implements View.OnClickListener {
 				loadModule.execute();
 			}
         }
-        else {
-            b.setText("Tous les modules");
-            ListView listview = (ListView) myview.findViewById(R.id.modules);
-            listview.setAdapter(new ModuleAdapter(myview.getContext(), my_module));
+        else if (buttonText.equals("Mes modules")) {
+            ConnectivityManager cm = (ConnectivityManager) myview.getContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+            NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
+            if (activeNetwork != null && activeNetwork.isConnectedOrConnecting()) {
+                b.setText("Tous les modules");
+                loadMyModule = new LoadMyModule(token, myview);
+                loadMyModule.execute();
+            }
         }
     }
 }
